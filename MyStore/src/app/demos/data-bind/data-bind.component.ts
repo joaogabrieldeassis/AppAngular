@@ -1,20 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-data-bind',
-  template: `
-    <p>
-      data-bind works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: 'data-bind.component.html'
 })
-export class DataBindComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+export class DataBindComponent {
+  public nome: string = "";
+  public carrinho: number = 0;
+  public produtoOne: number = 10;
+  public produtoTwo: number = 10;
+  public joao = 'João Gabriel';
+  public imagem: string = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg";
+  adicionandoNoCarrinho() {
+    this.carrinho += this.produtoOne + this.produtoTwo;
   }
-
+  removerUmProduto() {
+    this.carrinho -= this.produtoOne;
+  }
+  mostraNome() {
+    return this.nome;
+  }
 }
