@@ -4,4 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-contato',
   templateUrl: './contato.component.html'
 })
-export class ContatoComponent { }
+export class ContatoComponent {
+  public Name = 'João Gabriel de Assis';
+  public Endereco = 'Eusebio de queiroz';
+  public receive = this.Name + this.Endereco;
+}

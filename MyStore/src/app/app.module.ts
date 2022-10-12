@@ -9,7 +9,8 @@ import { RodapeComponent } from './navegacao/rodape/rodape.component';
 import { SobreComponent } from './institucional/sobre/sobre.component';
 import { ContatoComponent } from './institucional/contato/contato.component';
 import { rootRouterConfig } from './app.routes';
-
+import { FormsModule } from '@angular/forms';
+import { DataBindComponent } from './demos/data-bind/data-bind.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,11 +18,13 @@ import { rootRouterConfig } from './app.routes';
     HomeComponent,
     RodapeComponent,
     SobreComponent,
-    ContatoComponent
+    ContatoComponent,
+    DataBindComponent
   ],
   imports: [
     BrowserModule,
-    [RouterModule.forRoot(rootRouterConfig, { useHash: false })]
+    [RouterModule.forRoot(rootRouterConfig, { useHash: false })],
+    FormsModule
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' }
