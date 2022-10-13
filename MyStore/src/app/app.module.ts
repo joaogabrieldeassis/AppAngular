@@ -11,6 +11,7 @@ import { ContatoComponent } from './institucional/contato/contato.component';
 import { rootRouterConfig } from './app.routes';
 import { FormsModule } from '@angular/forms';
 import { DataBindComponent } from './demos/data-bind/data-bind.component';
+import { ProdutosService } from './produtos/produtos.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,8 +26,10 @@ import { DataBindComponent } from './demos/data-bind/data-bind.component';
     BrowserModule,
     [RouterModule.forRoot(rootRouterConfig, { useHash: false })],
     FormsModule
+
   ],
   providers: [
+    ProdutosService,
     { provide: APP_BASE_HREF, useValue: '/' }
   ],
   bootstrap: [AppComponent]
