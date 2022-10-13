@@ -1,0 +1,76 @@
+{
+    "produtos": [
+        {
+            " id ": 1,
+            " nome ": " mouse ",
+            " valor ": 50.0,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            " id ": 2,
+            " nome ": " Teclado ",
+            " valor ": 200,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "teclado.jpg"
+        },
+        {
+            " id ": 3,
+            " nome ": " Monitor AOC ",
+            " valor ": 850.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "monitor.jpg"
+        },
+        {
+            " id ": 4,
+            " nome ": " Notebook ",
+            " valor ": 5000.00,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "notebook.jpg"
+        },
+        {
+            " id ": 5,
+            " nome ": " json-server ",
+            " valor ": " typicode ",
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            " id ": 6,
+            " nome ": " json-server ",
+            " valor ": " typicode ",
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            " id ": 7,
+            " nome ": " Pc-Gamer ",
+            " valor ": 5000.00,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "pcgamer.jpg"
+        },
+        {
+            " id ": 8,
+            " nome ": " placa-mae ",
+            " valor ": 999.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "placamae.jpg"
+        },
+        {
+            " id ": 9,
+            " nome ": " iphoneX ",
+            " valor ": 7000,
+            "promocao": true,
+            "valorPromocao": 200,
+            "imagem": "iphoneX.jpg"
+        }
+    ]
+}
