@@ -1,20 +1,21 @@
 <div class="container main-container">
     <div class="row text-center">
-        <div *ngFor="let produto of produtos" class="col-md-4" style="padding-bottom:30px ;">
-            <div class="card h-100">
+        <div *ngFor="let produto of produtos" class="col-md-4"
+            style="padding-bottom:0px; margin-top: 90px; height: 450px; margin-bottom: 90px;">
+            <div class="card h-100" style="width: 350px;">
                 <a class="text-decoration-none">
-                    <div style="align-content:center;">
-                        <img src="" alt="" height="164px" width="253px">
+                    <div style="align-content:center; margin-top: 50px;">
+                        <img src="/assets/{{produto.imagem}}" alt="" height="184px" width="253px">
                     </div>
                 </a>
                 <div class="card-body">
-                    <h4 class="card-title">Nome do produto</h4>
-                    <p>Por apenas:</p>
+                    <h4 class="card-title">{{produto.nome}}</h4>
+                    <p></p>
                     <div>
-                        <h4>5000</h4>
+                        <h4>{{produto.valor}}</h4>
                     </div>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer" style="margin-bottom:px;">
                     <a class="btn btn-primary">
                         <samp class="fa fa-shopping-cart"></samp>Comprar
                     </a>

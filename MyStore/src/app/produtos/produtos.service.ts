@@ -9,6 +9,7 @@ import { Observable } from "rxjs";
 export class ProdutosService {
     constructor(private http: HttpClient) { }
     protected UrlService: string = "http://localhost:3000/";
+
     obterProdutos(): Observable<Produto[]> {
         return this.http.get<Produto[]>(this.UrlService + "produtos");
     }

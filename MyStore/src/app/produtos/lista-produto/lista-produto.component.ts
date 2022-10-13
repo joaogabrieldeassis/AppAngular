@@ -4,18 +4,20 @@ import { ProdutosService } from '../produtos.service';
 
 @Component({
   selector: 'app-lista-produto',
-  templateUrl: 'lista-produto.component.html'
+  templateUrl: './lista-produto.component.html'
 })
 export class ListaProdutoComponent implements OnInit {
 
   constructor(private produtosService: ProdutosService) { }
+
   public produtos!: Produto[];
+
   ngOnInit() {
     this.produtosService.obterProdutos()
       .subscribe(
-        receiveResultProducts => {
-          this.produtos = receiveResultProducts;
-          console.log(receiveResultProducts);
+        produtos => {
+          this.produtos = produtos;
+          console.log(produtos);
         }
       );
   }

@@ -1,73 +1,73 @@
 {
     "produtos": [
         {
-            " id ": 1,
-            " nome ": " mouse ",
-            " valor ": 50.0,
+            "id": 1,
+            "nome": "Camisa da Nike",
+            "valor": 100,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "nike.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Camisa Brasil()",
+            "valor": 170,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "brasileiro.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Tenis Nike",
+            "valor": 350.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "tenis.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Boné Nike",
+            "valor": 50.00,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "bone2.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "json-server",
+            "valor": " typicode ",
             "promocao": false,
             "valorPromocao": 0,
             "imagem": "mouse.jpg"
         },
         {
-            " id ": 2,
-            " nome ": " Teclado ",
-            " valor ": 200,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "teclado.jpg"
-        },
-        {
-            " id ": 3,
-            " nome ": " Monitor AOC ",
-            " valor ": 850.99,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "monitor.jpg"
-        },
-        {
-            " id ": 4,
-            " nome ": " Notebook ",
-            " valor ": 5000.00,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "notebook.jpg"
-        },
-        {
-            " id ": 5,
-            " nome ": " json-server ",
-            " valor ": " typicode ",
+            "id": 6,
+            "nome": "json-server",
+            "valor": " typicode ",
             "promocao": false,
             "valorPromocao": 0,
             "imagem": "mouse.jpg"
         },
         {
-            " id ": 6,
-            " nome ": " json-server ",
-            " valor ": " typicode ",
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "mouse.jpg"
-        },
-        {
-            " id ": 7,
-            " nome ": " Pc-Gamer ",
-            " valor ": 5000.00,
+            "id": 7,
+            "nome": "Pc-Gamer",
+            "valor": 5000.00,
             "promocao": false,
             "valorPromocao": 0,
             "imagem": "pcgamer.jpg"
         },
         {
-            " id ": 8,
-            " nome ": " placa-mae ",
-            " valor ": 999.99,
+            "id": 8,
+            "nome": "placa-mae",
+            "valor": 999.99,
             "promocao": false,
             "valorPromocao": 0,
             "imagem": "placamae.jpg"
         },
         {
-            " id ": 9,
-            " nome ": " iphoneX ",
-            " valor ": 7000,
+            "id": 9,
+            "nome": "iphoneX",
+            "valor": 7000,
             "promocao": true,
             "valorPromocao": 200,
             "imagem": "iphoneX.jpg"
