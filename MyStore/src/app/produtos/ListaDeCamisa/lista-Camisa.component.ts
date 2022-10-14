@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Produto } from '../produto';
+import { Camisa } from '../Camisa';
 import { ProdutosService } from '../produtos.service';
 
 @Component({
   selector: 'app-lista-produto',
-  templateUrl: './lista-produto.component.html'
+  templateUrl: './lista-Camisa.component.html'
 })
-export class ListaProdutoComponent implements OnInit {
+export class ListaDeCamisa implements OnInit {
 
   constructor(private produtosService: ProdutosService) { }
 
-  public produtos!: Produto[];
+  public produtos!: Camisa[];
 
   ngOnInit() {
     this.produtosService.obterProdutos()

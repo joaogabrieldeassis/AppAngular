@@ -1,4 +1,4 @@
-export class Produto {
+export class Camisa {
     id!: string;
     nome!: string;
     valor!: string;

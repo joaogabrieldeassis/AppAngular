@@ -13,7 +13,7 @@ import { rootRouterConfig } from './app.routes';
 import { FormsModule } from '@angular/forms';
 import { DataBindComponent } from './demos/data-bind/data-bind.component';
 import { ProdutosService } from './produtos/produtos.service';
-import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
+import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
     SobreComponent,
     ContatoComponent,
     DataBindComponent,
-    ListaProdutoComponent
+    ListaDeCamisa
   ],
   imports: [
     BrowserModule,
