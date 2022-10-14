@@ -20,8 +20,8 @@
             "id": 3,
             "nome": "Tenis Nike",
             "valor": 350.99,
-            "promocao": false,
-            "valorPromocao": 0,
+            "promocao": true,
+            "valorPromocao": 10,
             "imagem": "tenis.jpg"
         },
         {
