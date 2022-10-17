@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Camisa } from '../Camisa';
+import { Camisa } from './Camisa';
 import { ProdutosService } from '../produtos.service';
 
 @Component({
-  selector: 'app-lista-produto',
+  selector: 'app-lista-camisa',
   templateUrl: './lista-Camisa.component.html'
 })
 export class ListaDeCamisa implements OnInit {
