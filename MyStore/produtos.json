@@ -2,59 +2,59 @@
     "produtos": [
         {
             "id": 1,
-            "nome": "Camisa da Nike",
-            "valor": 100,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "nike.jpg"
-        },
-        {
-            "id": 2,
-            "nome": "Camisa Brasil()",
+            "nome": "Camisa da Nike Preta",
             "valor": 170,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "brasileiro.jpg"
+            "imagem": "nikePreta.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Camisa da Nike Branca",
+            "valor": 170,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": "nikeBranca.jpg"
         },
         {
             "id": 3,
-            "nome": "Tenis Nike",
-            "valor": 350.99,
+            "nome": "Camisa do Corinthians",
+            "valor": 199.99,
             "promocao": true,
             "valorPromocao": 10,
-            "imagem": "tenis.jpg"
+            "imagem": "corinthiansBranca.jpg"
         },
         {
             "id": 4,
-            "nome": "Boné Nike",
-            "valor": 50.00,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "bone2.jpg"
+            "nome": "Camisa do Corinthians",
+            "valor": 199.99,
+            "promocao": true,
+            "valorPromocao": 10,
+            "imagem": "cortinthiansBranca1.jpg"
         },
         {
             "id": 5,
-            "nome": "json-server",
-            "valor": " typicode ",
+            "nome": "Camisa do City",
+            "valor": 170,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "mouse.jpg"
+            "imagem": "city.jpg"
         },
         {
             "id": 6,
-            "nome": "json-server",
-            "valor": " typicode ",
+            "nome": "Camisa Do Paris",
+            "valor": 170,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "mouse.jpg"
+            "imagem": "paris.png"
         },
         {
             "id": 7,
-            "nome": "Pc-Gamer",
-            "valor": 5000.00,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "pcgamer.jpg"
+            "nome": "Camisa Do Paris Preta",
+            "valor": 170,
+            "promocao": true,
+            "valorPromocao": 149.99,
+            "imagem": "parisPreta.png"
         },
         {
             "id": 8,

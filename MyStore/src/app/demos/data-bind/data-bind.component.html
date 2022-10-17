@@ -15,4 +15,8 @@
 <br>
 <input type="text" [(ngModel)]="nome" style="margin-left: 90px;">
 <br>
-<label style="margin-left: 90px;"> Seu nome é {{nome}}</label>
+<label style="margin-left: 90px;"> Seu nome é {{nome}}</label><br><br>
+<label style="margin-left: 90px;">Digite seu nome</label><br>
+<input type="text" style="margin-left: 90px;" value="{{nome1}}"><br>
+<button class="btn btn-warning" style="margin-left: 90px;" (click)="MostrarNomeApartirDeUmClick()">Cadastra</button><br>
+<h1>{{armazena}}</h1>

@@ -10,6 +10,8 @@ export class DataBindComponent {
   public produtoOne: number = 10;
   public produtoTwo: number = 10;
   public joao = 'João Gabriel';
+  public nome1 !: string;
+  public armazena !: string;
   public imagem: string = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg";
   adicionandoNoCarrinho() {
     this.carrinho += this.produtoOne + this.produtoTwo;
@@ -19,5 +21,8 @@ export class DataBindComponent {
   }
   mostraNome() {
     return this.nome;
+  }
+  MostrarNomeApartirDeUmClick() {
+    this.armazena += this.nome1;
   }
 }

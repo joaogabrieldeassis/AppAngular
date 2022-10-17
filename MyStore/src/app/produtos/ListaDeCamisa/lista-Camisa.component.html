@@ -1,11 +1,11 @@
 <div class="container main-container">
     <div class="row text-center">
         <div *ngFor="let produto of produtos" class="col-md-4"
-            style="padding-bottom:0px; margin-top: 90px; height: 450px; margin-bottom: 90px;">
-            <div class="card h-100" style="width: 350px;">
+            style="padding-bottom:0px; margin-top: 90px; margin-bottom: 90px;">
+            <div class="card h-100" style="width: 290px; margin-left: 90px;">
                 <a class="text-decoration-none" [routerLink]="['/produto-detalhe',produto.id]">
                     <div style="align-content:center; margin-top: 50px;">
-                        <img src="/assets/{{produto.imagem}}" alt="" height="184px" width="253px">
+                        <img src="/assets/Camisetas/{{produto.imagem}}" alt="" height="184px" width="80%px">
                     </div>
                 </a>
                 <h4 class="card-title">{{produto.nome | titlecase}}</h4>
