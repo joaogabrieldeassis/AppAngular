@@ -13,6 +13,18 @@
                 <p *ngSwitchCase="true" style="color: blue;">Produto em Promoção</p>
                 <p *ngSwitch="false">Por Apenas</p>
             </div>
+            <div *ngIf="bermuda.promocao">
+                <div>
+                    <h4 class="card-text">De: <small><del>{{bermuda.valor | currency:'BRL'}}</del></small>
+                        Por: {{bermuda.valorPromocao | currency:'BRL'}}
+                    </h4>
+                </div>
+            </div>
+            <div class="card-footer" style="margin-bottom:px;">
+                <a class="btn btn-primary">
+                    <samp class="fa fa-shopping-cart"></samp>Comprar
+                </a>
+            </div>
         </div>
     </div>
 </div>
