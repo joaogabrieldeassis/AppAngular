@@ -58,19 +58,109 @@
         },
         {
             "id": 8,
-            "nome": "placa-mae",
-            "valor": 999.99,
+            "nome": "Camisa do chelsea",
+            "valor": 190,
+            "promocao": true,
+            "valorPromocao": 130.99,
+            "imagem": "chelsea.jpg"
+        }
+    ],
+    "bermudas": [
+        {
+            "id": 1,
+            "nome": "Jeans preta",
+            "valor": 120,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "placamae.jpg"
+            "imagem": ""
+        },
+        {
+            "id": 2,
+            "nome": "Jeans branca",
+            "valor": 120,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 3,
+            "nome": "Jeans azul",
+            "valor": 120,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 4,
+            "nome": "Jeans beje",
+            "valor": 120,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 5,
+            "nome": "Elastano Importada",
+            "valor": 120,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 6,
+            "nome": "Elastano Importada",
+            "valor": 120,
+            "promocao": true,
+            "valorPromocao": 100,
+            "imagem": ""
+        },
+        {
+            "id": 7,
+            "nome": "Elastano Importada",
+            "valor": 120,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 8,
+            "nome": "Elastano Importada",
+            "valor": 120,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
         },
         {
             "id": 9,
-            "nome": "iphoneX",
-            "valor": 7000,
-            "promocao": true,
-            "valorPromocao": 200,
-            "imagem": "iphoneX.jpg"
+            "nome": "Elastano Nacional",
+            "valor": 59.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 10,
+            "nome": "Elastano Nacional",
+            "valor": 59.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 11,
+            "nome": "Elastano Nacional",
+            "valor": 59.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
+        },
+        {
+            "id": 12,
+            "nome": "Elastano Nacional",
+            "valor": 59.99,
+            "promocao": false,
+            "valorPromocao": 0,
+            "imagem": ""
         }
     ]
 }
