@@ -1,0 +1,18 @@
+<div class="container main-container">
+    <div class="row text-center">
+        <div *ngFor="let bermuda of bermudaslist" class="col-md-3"
+            style="padding-bottom:0px; margin-top: 90px; margin-bottom: 90px;">
+            <a class="text-decoration-none" [routerLink]="['/bermuda-detalhe',bermuda.id]">
+                <div style="align-content:center; margin-top: 30px;">
+                    <img src="/assets/Bermudas/{{bermuda.imagem}}" alt="" height="184px" width="80%px">
+                </div>
+            </a>
+            <br><br>
+            <h4 class="card-title">{{bermuda.nome | titlecase}}</h4>
+            <div [ngSwitch]="bermuda.promocao">
+                <p *ngSwitchCase="true" style="color: blue;">Produto em Promoção</p>
+                <p *ngSwitch="false">Por Apenas</p>
+            </div>
+        </div>
+    </div>
+</div>
