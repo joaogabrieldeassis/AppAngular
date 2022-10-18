@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { DataBindComponent } from './demos/data-bind/data-bind.component';
 import { ProdutosService } from './produtos/produtos.service';
 import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
+import { AppListaBermudaComponent } from './produtos/listaDeBermudas/app-lista-bermuda/app-lista-bermuda.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
     SobreComponent,
     ContatoComponent,
     DataBindComponent,
-    ListaDeCamisa
+    ListaDeCamisa,
+    AppListaBermudaComponent
   ],
   imports: [
     BrowserModule,

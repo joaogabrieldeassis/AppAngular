@@ -21,7 +21,7 @@
             "nome": "Camisa do Corinthians",
             "valor": 199.99,
             "promocao": true,
-            "valorPromocao": 10,
+            "valorPromocao": 150.00,
             "imagem": "corinthiansBranca.jpg"
         },
         {
@@ -29,7 +29,7 @@
             "nome": "Camisa do Corinthians",
             "valor": 199.99,
             "promocao": true,
-            "valorPromocao": 10,
+            "valorPromocao": 150.00,
             "imagem": "cortinthiansBranca1.jpg"
         },
         {
