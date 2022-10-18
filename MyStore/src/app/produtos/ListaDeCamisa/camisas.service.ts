@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from '@angular/common/http';
-import { Camisa } from "./ListaDeCamisa/Camisa";
+import { Camisa } from "./Camisa";
 import { Observable } from "rxjs";
 
 
@@ -11,6 +11,6 @@ export class ProdutosService {
     protected UrlService: string = "http://localhost:3000/";
 
     obterProdutos(): Observable<Camisa[]> {
-        return this.http.get<Camisa[]>(this.UrlService + "produtos");
+        return this.http.get<Camisa[]>(this.UrlService + "camisas");
     }
 }

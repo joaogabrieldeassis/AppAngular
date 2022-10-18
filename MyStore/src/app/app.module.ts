@@ -12,9 +12,11 @@ import { ContatoComponent } from './institucional/contato/contato.component';
 import { rootRouterConfig } from './app.routes';
 import { FormsModule } from '@angular/forms';
 import { DataBindComponent } from './demos/data-bind/data-bind.component';
-import { ProdutosService } from './produtos/produtos.service';
+import { ProdutosService } from './produtos/ListaDeCamisa/camisas.service';
 import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
-import { AppListaBermudaComponent } from './produtos/listaDeBermudas/app-lista-bermuda/app-lista-bermuda.component';
+import { AppListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
+
+
 
 @NgModule({
   declarations: [

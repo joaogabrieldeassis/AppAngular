@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Camisa } from './Camisa';
-import { ProdutosService } from '../produtos.service';
+import { ProdutosService } from './camisas.service';
 
 @Component({
   selector: 'app-lista-camisa',
