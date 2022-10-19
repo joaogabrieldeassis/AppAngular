@@ -10,14 +10,14 @@ import { TenisService } from './bermudas.service';
 })
 export class ListaDeTenis implements OnInit {
 
-  constructor(private bermudas: TenisService) { }
-  public bermudaslist!: Tenis[];
+  constructor(private tenis: TenisService) { }
+  public onjTenis!: Tenis[];
 
   ngOnInit() {
-    this.bermudas.listarBermudas().subscribe(
-      bermudas => {
-        this.bermudaslist = bermudas;
-        console.log(bermudas);
+    this.tenis.listarBermudas().subscribe(
+      tenis => {
+        this.onjTenis = tenis;
+        console.log(tenis);
       }
     )
   }

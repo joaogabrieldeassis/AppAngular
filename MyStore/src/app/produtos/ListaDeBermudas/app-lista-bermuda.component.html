@@ -1,36 +1,34 @@
 <div class="container main-container">
     <div class="row text-center">
-        <div *ngFor="let bermuda of bermudaslist" class="col-md-3"
+        <div *ngFor="let tenis1 of onjTenis" class="col-md-3"
             style="padding-bottom:0px; margin-top: 90px; margin-bottom: 90px;">
             <div class="card h-100" style="width: 290px; margin-left: 0px; margin-right: 50px;">
-                <a class="text-decoration-none" [routerLink]="['/bermuda-detalhe',bermuda.id]">
-                    <div style="align-content:center; margin-top: 30px;">
-                        <img src="/assets/Bermudas/{{bermuda.imagem}}" alt="" height="250px" width="100%px">
+                <a class="text-decoration-none" [routerLink]="['/bermuda-detalhe',tenis1.id]">
+                    <div style="align-content:center; margin-top: 20px;">
+                        <img src="/assets/Tenis/{{tenis1.imagem}}" alt="" height="250px" width="100%px">
                     </div>
                 </a>
-                <br>
-                <br>
-                <h4 class="card-title">{{bermuda.nome | titlecase}}</h4>
 
-                <div [ngSwitch]="bermuda.promocao">
+                <br>
+                <h4 class="card-title">{{tenis1.nome | titlecase}}</h4>
+                <div [ngSwitch]="tenis1.promocao">
                     <p *ngSwitchCase="true" style="color: blue;">Produto em promoção!</p>
-                    <p *ngSwitchCase="false">Por apenas</p>
                 </div>
 
-                <div *ngIf="bermuda.promocao" class="card-body">
+                <div *ngIf="tenis1.promocao" class="card-body" style="margin-bottom: 0px;">
                     <div>
-                        <h4 class="card-text">De: <small><del>{{bermuda.valor | currency:'BRL'}}</del></small>
-                            Por: {{bermuda.valorPromocao | currency:'BRL'}}
+                        <h4 class="card-text">De: <small><del>{{tenis1.valor | currency:'BRL'}}</del></small>
+                            Por: {{tenis1.valorPromocao | currency:'BRL'}}
                         </h4>
                     </div>
                 </div>
-                <div *ngIf="!bermuda.promocao" class="card-body">
+                <div *ngIf="!tenis1.promocao" class="card-body" style="margin-bottom: 5px;">
                     <div>
-                        <h4 class="card-text">Por: {{bermuda.valor | currency:'BRL'}}
+                        <h4 class="card-text">Por: {{tenis1.valor | currency:'BRL'}}
                         </h4>
                     </div>
                 </div>
-                <div class="card-footer" style="margin-bottom:px;">
+                <div class="card-footer" style="margin-top:1px;">
                     <a class="btn btn-primary">
                         <samp class="fa fa-shopping-cart"></samp>Comprar
                     </a>

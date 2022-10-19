@@ -68,99 +68,67 @@
     "bermudas": [
         {
             "id": 1,
-            "nome": "Jeans preta",
-            "valor": 120,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": "teste.jpg"
+            "nome": "olympikus Feminino",
+            "valor": 220,
+            "promocao": true,
+            "valorPromocao": 200,
+            "imagem": "olimpicosRosaEpreto.jpg"
         },
         {
             "id": 2,
-            "nome": "Jeans branca",
-            "valor": 120,
+            "nome": "olympikus Azul",
+            "valor": 320,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "jeansBranca.jpg"
+            "imagem": "olimpicosAzul.png"
         },
         {
             "id": 3,
-            "nome": "Jeans azul",
-            "valor": 120,
+            "nome": "Adidas Feminino",
+            "valor": 320,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "jeansAzul.png"
+            "imagem": "adidasRosa.png"
         },
         {
             "id": 4,
-            "nome": "Jeans beje",
-            "valor": 120,
+            "nome": "olympikus",
+            "valor": 320,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": "jeansBege.jpg"
+            "imagem": "olimpicosColorido.png"
         },
         {
             "id": 5,
-            "nome": "Elastano Importada",
-            "valor": 120,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": ""
+            "nome": "Tênis Esportivo",
+            "valor": 250,
+            "promocao": true,
+            "valorPromocao": 199.99,
+            "imagem": "preto7.jpg"
         },
         {
             "id": 6,
-            "nome": "Elastano Importada",
-            "valor": 120,
-            "promocao": true,
+            "nome": "Tênis Esportivo",
+            "valor": 320,
+            "promocao": false,
             "valorPromocao": 100,
-            "imagem": ""
+            "imagem": "pretoFosco.jpg"
         },
         {
             "id": 7,
-            "nome": "Elastano Importada",
-            "valor": 120,
+            "nome": "Tênis Esportivo",
+            "valor": 420,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": ""
+            "imagem": "vermelho.jpg"
         },
         {
             "id": 8,
-            "nome": "Elastano Importada",
-            "valor": 120,
+            "nome": "Tênis Esportivo",
+            "valor": 320,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": ""
-        },
-        {
-            "id": 9,
-            "nome": "Elastano Nacional",
-            "valor": 59.99,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": ""
-        },
-        {
-            "id": 10,
-            "nome": "Elastano Nacional",
-            "valor": 59.99,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": ""
-        },
-        {
-            "id": 11,
-            "nome": "Elastano Nacional",
-            "valor": 59.99,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": ""
-        },
-        {
-            "id": 12,
-            "nome": "Elastano Nacional",
-            "valor": 59.99,
-            "promocao": false,
-            "valorPromocao": 0,
-            "imagem": ""
+            "imagem": "azulBranco.jpg"
         }
     ]
 }
