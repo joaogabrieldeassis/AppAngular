@@ -14,8 +14,9 @@ import { FormsModule } from '@angular/forms';
 import { DataBindComponent } from './demos/data-bind/data-bind.component';
 import { ProdutosService } from './produtos/ListaDeCamisa/camisas.service';
 import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
-import { ListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
+import { ListaDeTenis } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
 import { TenisService } from './produtos/ListaDeBermudas/bermudas.service';
+import { TesteComponent } from './demos/teste/teste.component';
 
 
 
@@ -29,7 +30,8 @@ import { TenisService } from './produtos/ListaDeBermudas/bermudas.service';
     ContatoComponent,
     DataBindComponent,
     ListaDeCamisa,
-    ListaBermudaComponent
+    ListaDeTenis,
+    TesteComponent
   ],
   imports: [
     BrowserModule,

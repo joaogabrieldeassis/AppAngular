@@ -8,7 +8,7 @@ import { TenisService } from './bermudas.service';
   styles: [
   ]
 })
-export class ListaBermudaComponent implements OnInit {
+export class ListaDeTenis implements OnInit {
 
   constructor(private bermudas: TenisService) { }
   public bermudaslist!: Tenis[];
