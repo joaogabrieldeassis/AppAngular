@@ -2,28 +2,39 @@
     <div class="row text-center">
         <div *ngFor="let bermuda of bermudaslist" class="col-md-3"
             style="padding-bottom:0px; margin-top: 90px; margin-bottom: 90px;">
-            <a class="text-decoration-none" [routerLink]="['/bermuda-detalhe',bermuda.id]">
-                <div style="align-content:center; margin-top: 30px;">
-                    <img src="/assets/Bermudas/{{bermuda.imagem}}" alt="" height="184px" width="80%px">
-                </div>
-            </a>
-            <br><br>
-            <h4 class="card-title">{{bermuda.nome | titlecase}}</h4>
-            <div [ngSwitch]="bermuda.promocao">
-                <p *ngSwitchCase="true" style="color: blue;">Produto em Promoção</p>
-                <p *ngSwitch="false">Por Apenas</p>
-            </div>
-            <div *ngIf="bermuda.promocao">
-                <div>
-                    <h4 class="card-text">De: <small><del>{{bermuda.valor | currency:'BRL'}}</del></small>
-                        Por: {{bermuda.valorPromocao | currency:'BRL'}}
-                    </h4>
-                </div>
-            </div>
-            <div class="card-footer" style="margin-bottom:px;">
-                <a class="btn btn-primary">
-                    <samp class="fa fa-shopping-cart"></samp>Comprar
+            <div class="card h-100" style="width: 290px; margin-left: 0px; margin-right: 50px;">
+                <a class="text-decoration-none" [routerLink]="['/bermuda-detalhe',bermuda.id]">
+                    <div style="align-content:center; margin-top: 30px;">
+                        <img src="/assets/Camisetas/{{bermuda.imagem}}" alt="" height="184px" width="80%px">
+                    </div>
                 </a>
+                <br>
+                <br>
+                <h4 class="card-title">{{bermuda.nome | titlecase}}</h4>
+
+                <div [ngSwitch]="bermuda.promocao">
+                    <p *ngSwitchCase="true" style="color: blue;">Produto em promoção!</p>
+                    <p *ngSwitchCase="false">Por apenas</p>
+                </div>
+
+                <div *ngIf="bermuda.promocao" class="card-body">
+                    <div>
+                        <h4 class="card-text">De: <small><del>{{bermuda.valor | currency:'BRL'}}</del></small>
+                            Por: {{bermuda.valorPromocao | currency:'BRL'}}
+                        </h4>
+                    </div>
+                </div>
+                <div *ngIf="!bermuda.promocao" class="card-body">
+                    <div>
+                        <h4 class="card-text">Por: {{bermuda.valor | currency:'BRL'}}
+                        </h4>
+                    </div>
+                </div>
+                <div class="card-footer" style="margin-bottom:px;">
+                    <a class="btn btn-primary">
+                        <samp class="fa fa-shopping-cart"></samp>Comprar
+                    </a>
+                </div>
             </div>
         </div>
     </div>

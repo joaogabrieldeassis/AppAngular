@@ -14,7 +14,8 @@ import { FormsModule } from '@angular/forms';
 import { DataBindComponent } from './demos/data-bind/data-bind.component';
 import { ProdutosService } from './produtos/ListaDeCamisa/camisas.service';
 import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
-import { AppListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
+import { ListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
+import { BermudaService } from './produtos/ListaDeBermudas/bermudas.service';
 
 
 
@@ -28,7 +29,7 @@ import { AppListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-b
     ContatoComponent,
     DataBindComponent,
     ListaDeCamisa,
-    AppListaBermudaComponent
+    ListaBermudaComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +38,7 @@ import { AppListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-b
     [RouterModule.forRoot(rootRouterConfig, { useHash: false })],
   ],
   providers: [
+    BermudaService,
     ProdutosService,
     { provide: APP_BASE_HREF, useValue: '/' },
   ],

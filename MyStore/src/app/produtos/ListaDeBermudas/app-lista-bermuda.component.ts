@@ -8,10 +8,11 @@ import { BermudaService } from './bermudas.service';
   styles: [
   ]
 })
-export class AppListaBermudaComponent implements OnInit {
+export class ListaBermudaComponent implements OnInit {
 
   constructor(private bermudas: BermudaService) { }
   public bermudaslist!: Bermuda[];
+
   ngOnInit() {
     this.bermudas.listarBermudas().subscribe(
       bermudas => {
