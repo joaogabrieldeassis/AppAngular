@@ -72,7 +72,7 @@
             "valor": 120,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": ""
+            "imagem": "teste.jpg"
         },
         {
             "id": 2,
@@ -80,7 +80,7 @@
             "valor": 120,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": ""
+            "imagem": "jeansBranca.jpg"
         },
         {
             "id": 3,
@@ -88,7 +88,7 @@
             "valor": 120,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": ""
+            "imagem": "jeansAzul.png"
         },
         {
             "id": 4,
@@ -96,7 +96,7 @@
             "valor": 120,
             "promocao": false,
             "valorPromocao": 0,
-            "imagem": ""
+            "imagem": "jeansBege.jpg"
         },
         {
             "id": 5,

@@ -15,7 +15,7 @@ import { DataBindComponent } from './demos/data-bind/data-bind.component';
 import { ProdutosService } from './produtos/ListaDeCamisa/camisas.service';
 import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
 import { ListaBermudaComponent } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
-import { BermudaService } from './produtos/ListaDeBermudas/bermudas.service';
+import { TenisService } from './produtos/ListaDeBermudas/bermudas.service';
 
 
 
@@ -38,7 +38,7 @@ import { BermudaService } from './produtos/ListaDeBermudas/bermudas.service';
     [RouterModule.forRoot(rootRouterConfig, { useHash: false })],
   ],
   providers: [
-    BermudaService,
+    TenisService,
     ProdutosService,
     { provide: APP_BASE_HREF, useValue: '/' },
   ],

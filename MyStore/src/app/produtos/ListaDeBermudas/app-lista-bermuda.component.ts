@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Bermuda } from './Bermuda';
-import { BermudaService } from './bermudas.service';
+import { Tenis } from './Bermuda';
+import { TenisService } from './bermudas.service';
 
 @Component({
   selector: 'app-app-lista-bermuda',
@@ -10,8 +10,8 @@ import { BermudaService } from './bermudas.service';
 })
 export class ListaBermudaComponent implements OnInit {
 
-  constructor(private bermudas: BermudaService) { }
-  public bermudaslist!: Bermuda[];
+  constructor(private bermudas: TenisService) { }
+  public bermudaslist!: Tenis[];
 
   ngOnInit() {
     this.bermudas.listarBermudas().subscribe(

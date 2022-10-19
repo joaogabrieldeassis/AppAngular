@@ -1,4 +1,4 @@
-export class Bermuda {
+export class Tenis {
     id!: string;
     nome!: string;
     valor!: string;
