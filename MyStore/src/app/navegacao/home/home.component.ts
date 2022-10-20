@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
