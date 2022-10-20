@@ -17,6 +17,7 @@ import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
 import { ListaDeTenis } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
 import { TenisService } from './produtos/ListaDeBermudas/bermudas.service';
 import { TesteComponent } from './demos/teste/teste.component';
+import { CardComponent } from './card/card.component';
 
 
 
@@ -31,7 +32,8 @@ import { TesteComponent } from './demos/teste/teste.component';
     DataBindComponent,
     ListaDeCamisa,
     ListaDeTenis,
-    TesteComponent
+    TesteComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

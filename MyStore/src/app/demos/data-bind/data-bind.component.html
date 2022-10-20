@@ -6,3 +6,13 @@
 <p *ngFor="let nomes1 of arrayDeNomes">
     <b>Nome: {{nomes1.nome}} <br> Idade: {{nomes1.idade}}</b>
 </p>
+<br>
+<br>
+<button [disabled]="buutonFalse">Salvar</button>
+<br>
+<p>{{teste}}</p>
+<div>
+    <button type="button" (click)="dec()" title="smaller">-</button>
+    <button type="button" (click)="inc()" title="bigger">+</button>
+    <span [style.font-size.px]="size">FontSize: {{size}}px</span>
+</div>
