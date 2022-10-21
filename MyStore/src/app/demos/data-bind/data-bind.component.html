@@ -6,11 +6,12 @@
 <p *ngFor="let nomes1 of arrayDeNomes">
     <b>Nome: {{nomes1.nome}} <br> Idade: {{nomes1.idade}}</b>
 </p>
+<p></p>
 <br>
 <br>
 <button [disabled]="buutonFalse">Salvar</button>
 <br>
-<p>{{teste}}</p>
+<p>Teste - {{teste | date}}</p>
 <div>
     <button type="button" (click)="dec()" title="smaller">-</button>
     <button type="button" (click)="inc()" title="bigger">+</button>

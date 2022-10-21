@@ -5,7 +5,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 
 export class DataBindComponent {
-  public teste = 'Dados Enviados';
+  public teste = '09042004';
   public item = 'João Gabriel';
   public contador1 = 0;
   public buutonFalse = true;
