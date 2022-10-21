@@ -9,12 +9,13 @@ export class DataBindComponent {
   public item = 'João Gabriel';
   public contador1 = 0;
   public buutonFalse = true;
+  numberIf = 10;
   public arrayDeNomes = [{
-    nome: 'João Gabriel',
+    nome: 'Jesus',
     idade: 18
   },
   {
-    nome: 'João Gabriel',
+    nome: 'Mariana Pereira',
     idade: 18,
   },
   {

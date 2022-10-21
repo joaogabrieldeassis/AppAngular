@@ -17,3 +17,10 @@
     <button type="button" (click)="inc()" title="bigger">+</button>
     <span [style.font-size.px]="size">FontSize: {{size}}px</span>
 </div>
+<div>
+    <div *ngFor="let nomesOne of arrayDeNomes">
+        <p *ngIf="nomesOne.nome == 'Jesus' && nomesOne.idade == 18">Nome - {{nomesOne.nome}} Idade -
+            {{nomesOne.idade}}</p>
+    </div>
+    <p *ngIf="numberIf == 101">{{numberIf}}</p>
+</div>
