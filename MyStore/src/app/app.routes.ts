@@ -1,4 +1,5 @@
 import { Routes } from "@angular/router";
+import { CartPageComponent } from "./cart-page/cart-page.component";
 import { DataBindComponent } from "./demos/data-bind/data-bind.component";
 import { ContatoComponent } from "./institucional/contato/contato.component";
 import { SobreComponent } from "./institucional/sobre/sobre.component";
@@ -15,5 +16,6 @@ export const rootRouterConfig: Routes = [
     { path: 'camisas', component: ListaDeCamisa },
     { path: 'produto-detalhe/:id', component: ListaDeCamisa },
     { path: 'Tenis', component: ListaDeTenis },
-    { path: 'bermuda-detalhe/:id', component: ListaDeTenis }
+    { path: 'bermuda-detalhe/:id', component: ListaDeTenis },
+    { path: 'carrinho', component: CartPageComponent }
 ];

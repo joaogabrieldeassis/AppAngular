@@ -11,14 +11,18 @@ export class DataBindComponent {
   public buutonFalse = true;
   numberIf = 10;
   public arrayDeNomes = [{
+    id: 1,
     nome: 'Jesus',
     idade: 18
   },
   {
+    id: 2,
     nome: 'Mariana Pereira',
     idade: 18,
   },
+
   {
+    id: 3,
     nome: 'João Gabriel',
     idade: 18
 

@@ -17,6 +17,7 @@ import { ListaDeCamisa } from './produtos/ListaDeCamisa/lista-Camisa.component';
 import { ListaDeTenis } from './produtos/ListaDeBermudas/app-lista-bermuda.component';
 import { TenisService } from './produtos/ListaDeBermudas/bermudas.service';
 import { TesteComponent } from './demos/teste/teste.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 
 
@@ -32,6 +33,8 @@ import { TesteComponent } from './demos/teste/teste.component';
     ListaDeCamisa,
     ListaDeTenis,
     TesteComponent,
+    CartPageComponent,
+    CartPageComponent
 
   ],
   imports: [
