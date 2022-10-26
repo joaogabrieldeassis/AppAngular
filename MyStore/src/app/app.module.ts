@@ -18,6 +18,7 @@ import { ListaDeTenis } from './produtos/ListaDeBermudas/app-lista-bermuda.compo
 import { TenisService } from './produtos/ListaDeBermudas/bermudas.service';
 import { TesteComponent } from './demos/teste/teste.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { BlusasComponent } from './produtos/blusas/blusas.component';
 
 
 
@@ -34,7 +35,8 @@ import { CartPageComponent } from './cart-page/cart-page.component';
     ListaDeTenis,
     TesteComponent,
     CartPageComponent,
-    CartPageComponent
+    CartPageComponent,
+    BlusasComponent
 
   ],
   imports: [
