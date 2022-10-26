@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-blusas',
-  template: `
-    <p>
-      blusas works!
-    </p>
-  `,
+  templateUrl: './blusas.component.html',
   styles: [
   ]
 })
