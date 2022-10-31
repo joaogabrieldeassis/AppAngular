@@ -1,0 +1,56 @@
+@media screen and (max-width:500px) {
+    .container-fluid {
+        text-align: center;
+        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+
+    .text-white {
+        margin-top: 1px;
+    }
+
+    .cardFinal {
+        margin-bottom: 150px;
+    }
+
+    .card {
+        margin-top: 60px;
+    }
+
+    .card {
+        margin-left: 20%;
+    }
+
+    .navbar-toggler {
+        margin-left: 50%;
+    }
+
+    .imgAngular {
+        display: block;
+        margin-top: 100px;
+        margin-left: 20%;
+
+    }
+
+    .container h-100 {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .navigatorTwo {
+        display: none;
+    }
+
+    .navbar-brand {
+        flex-wrap: nowrap;
+    }
+
+    .navbar-toggler-icon {
+        flex-wrap: nowrap;
+    }
+
+    .navbar-toggler {
+        flex-wrap: nowrap;
+    }
+}
