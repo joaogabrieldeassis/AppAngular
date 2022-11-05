@@ -6,10 +6,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 export class DataBindComponent {
   public teste = '09042004';
-  public item = 'João Gabriel';
-  public contador1 = 0;
-  public buutonFalse = true;
-  numberIf = 10;
+  public testetwo = true;
   public arrayDeNomes = [{
     id: 1,
     nome: 'Jesus',
@@ -27,20 +24,17 @@ export class DataBindComponent {
     idade: 18
 
   }];
-  contador() {
-    return this.contador1++;
+  joao() {
+    var receive = this.arrayDeNomes.map(function (nomes) {
+      return nomes.nome
+    });
+    return receive
   }
-  Save() {
-    return this.teste = this.teste;
-  }
-  @Input() size!: number | string;
-  @Output() sizeChange = new EventEmitter<number>();
-
-  dec() { this.resize(-1); }
-  inc() { this.resize(+1); }
-
-  resize(delta: number) {
-    this.size = Math.min(40, Math.max(8, +this.size + delta));
-    this.sizeChange.emit(this.size);
+  gabriel() {
+    var receive = this.arrayDeNomes.map(function (calculoidade) {
+      var receivetwo = calculoidade.idade + calculoidade.idade;
+      return receivetwo
+    })
+    return receive;
   }
 }
